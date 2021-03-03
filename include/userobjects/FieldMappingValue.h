@@ -14,12 +14,6 @@
 
 #include "libmesh/mesh_tools.h"
 
-// Forward Declarations
-class FieldMappingValue;
-
-template <>
-InputParameters validParams<FieldMappingValue>();
-
 /**
  * Computes the average value of a variable on each block
  */

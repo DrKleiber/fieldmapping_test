@@ -1,2 +1,2 @@
 
-#include"/Users/yang.liu/projects/moose/examples/fieldmapping_test/src/userobjects/FieldMappingValue.C"
+#include"/Users/yang.liu/projects/fieldmapping_test/src/userobjects/FieldMappingValue.C"

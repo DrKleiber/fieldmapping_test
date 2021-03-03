@@ -8,7 +8,6 @@
 //* https://www.gnu.org/licenses/lgpl-2.1.html
 
 #include "FieldMappingValue.h"
-#include "ElementValueSampler.h"
 // MOOSE includes
 #include "MooseVariableFE.h"
 
@@ -16,8 +15,6 @@
 #include <numeric>
 
 registerMooseObject("ExampleApp", FieldMappingValue);
-
-defineLegacyParams(ElementValueSampler);
 
 InputParameters
 FieldMappingValue::validParams()

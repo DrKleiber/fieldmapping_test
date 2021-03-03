@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags='  -fopenmp'
 
 # Libraries that this one depends upon.
-dependency_libs=''
+dependency_libs=' /Users/yang.liu/projects/moose/modules/module_loader/lib/libmodule_loader_with-opt.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/yang.liu/projects/moose/examples/fieldmapping_test/lib'
+libdir='/Users/yang.liu/projects/fieldmapping_test/lib'

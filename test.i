@@ -36,16 +36,15 @@
 []
 
 [Materials]
-  [./badm]
+  [./fmdm]
     type = FieldMappingDiffusionMaterial
-    block = 'left right'
-    field_mapping_userobject = bav
+    field_mapping_userobject = fmv
   [../]
 []
 
 [UserObjects]
-  [./bav]
-    type = ElementValueSampler
+  [./fmv]
+    type = FieldMappingValue
     variable = u
     sort_by = id
     execute_on = timestep_begin
